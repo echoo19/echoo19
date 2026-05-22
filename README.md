@@ -1,84 +1,60 @@
 # Jake Kang
 
-I build software focused on structure, workflows, and how people interact with complex systems. My work spans product development and developer tooling, with a growing focus on AI-integrated systems.
+Builder focused on structure, workflows, and how people interact with complex systems. Work spans product development, developer tooling, and hardware-integrated AI systems.
 
----
+## ◆ Software
 
-## Software
-
-### StudyLocker
-
+#### StudyLocker
 A platform for organizing academic workflows by bringing together tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information for students easier to access and act on.
 
-* Early-stage SaaS with active iteration based on real student use
-* Integrated with Google Calendar and Classroom for workflow syncing
-* Used to manage assignments, resources, and study planning in a single interface
+> Early-stage SaaS with active iteration based on real student use. Integrated with Google Calendar and Classroom for workflow syncing. Used to manage assignments, resources, and study planning in a single interface.
 
-### OperaOS
+#### Lectern
+An extension of StudyLocker built for private tutoring and teaching businesses. Brings student management, lesson planning, and resource sharing into one workspace for independent educators and small academies.
 
-An fledgling system exploring how AI can function as a central layer for organizing tools and user context within a workspace. An artificial "brain" for a new generation of entrepreneurs and freelancers.
+> Currently signing first paying customer. Designed around the operational needs of tutors and small teaching teams. Built on the StudyLocker foundation with workflows tailored to instructors.
 
-* Ongoing prototype focused on system design and interaction models
-* Exploring how AI can directly modify and organize structured user data
-* Early builds centered on workflow automation and multi-tool coordination
+## ◆ Hardware
 
----
+#### Norm / Sentry
+Norm is a Physical AI company. Sentry is its first product, a desktop camera device that monitors focus behavior and provides coaching through a companion app.
 
-## Open Source
+> Built on Raspberry Pi with an AI camera module. Edge inference for real-time focus detection. Cloud LLM integration for personalized coaching.
 
-I have built and will continue to build modular tools that improve developer workflows, especially in agent-assisted environments.
+## ◆ Open Source
 
-* **Decision Simulator**
-  A structured tool for evaluating tradeoffs and decisions
+#### Hive
+An open source platform for running local drones, mini agents that handle scoped tasks on a developer's machine. Focused on giving developers a lightweight way to coordinate multiple small agents without depending on centralized infrastructure.
 
-* **Feature Agents**
-  An agent-based system that critiques proposed features before implementation
+> Self-trained the underlying AI models rather than relying on hosted APIs. Designed for composable, single-purpose agents. Active development with a focus on developer ergonomics.
 
-* **ArchKit**
-  A repository optimization tool for improving codebase structure and navigation
+#### Tooling
+- Decision Simulator, a structured tool for evaluating tradeoffs and decisions
+- Feature Agents, an agent-based system that critiques proposed features before implementation
+- ArchKit, a repository optimization tool for improving codebase structure and navigation
 
----
+## ◆ Technical Skills
 
-## Technical Skills
+#### Languages
+Java, Python, TypeScript / JavaScript, C++, C# (Game Development), Lua / Luau, HTML + CSS
 
-**Languages**
+#### Frontend
+React, Tailwind CSS, Vite, Next.js
 
-* Java
-* Python
-* HTML + CSS
-* TypeScript / JavaScript
-* C++
-* C# (Game Development)
+#### Backend and Infrastructure
+Supabase, PostgreSQL, REST APIs, OAuth integrations (Google APIs), Stripe
 
-**Frontend**
+#### AI and Tooling
+Prompt engineering, designing AI-assisted workflows, working with LLM APIs and structured outputs, self-training small models, building tools for agent-based systems including skills and plugins
 
-* React
-* Tailwind CSS
-* Vite
+#### Hardware and Electrical
+Raspberry Pi development, AI camera module integration, ESP32-S3, edge AI deployment, embedded power management, GPIO interfacing, sensor and camera integration, circuit prototyping
 
-**Backend & Infrastructure**
+## ◆ Interests
 
-* Supabase
-* PostgreSQL
-* REST APIs
-* OAuth integrations (Google APIs)
+Interested in how AI can move beyond simple interfaces and start interacting directly with existing systems, hardware, and people's workflows.
 
-**AI & Tooling**
+## ◆ Links
 
-* Prompt engineering
-* Designing AI-assisted workflows
-* Working with LLM APIs and structured outputs
-* Building tools for agent-based systems - skills, plugins
-
----
-
-## Interests
-
-I’m interested in how AI can move beyond simple interfaces and start interacting directly with existing systems and people's workflows.
-
----
-
-## Links
-
-* GitHub: https://github.com/echoo19
-* LinkedIn: https://www.linkedin.com/in/hyunsoo-kang-44370b329/
+- GitHub: [github.com/echoo19](https://github.com/echoo19)
+- LinkedIn: [linkedin.com/in/hyunsoo-kang-44370b329](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
