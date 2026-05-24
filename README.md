@@ -24,7 +24,7 @@ Norm is a Physical AI company. Sentry is its first product, a desktop camera dev
 ## ◆ Open Source
 
 #### Hive
-An open source platform for running local drones, mini agents that handle scoped tasks on a developer's machine. Focused on giving developers a lightweight way to coordinate multiple small agents without depending on centralized infrastructure.
+An open source platform for running local drones (mini agents that handle scoped tasks on a developer's machine) as well as other AI tools such as plugins, skills, and agent blueprints. Focused on giving developers a lightweight way to coordinate their AI  without depending on centralized infrastructure.
 
 > Self-trained the underlying AI models rather than relying on hosted APIs. Designed for composable, single-purpose agents. Active development with a focus on developer ergonomics.
 
