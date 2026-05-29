@@ -4,7 +4,7 @@ Builder focused on structure, workflows, and how people interact with complex sy
 
 ## ◆ Software
 
-#### StudyLocker
+#### [StudyLocker](https://studylocker.app)
 A platform for organizing academic workflows by bringing together tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information for students easier to access and act on.
 
 > Early-stage SaaS with active iteration based on real student use. Integrated with Google Calendar and Classroom for workflow syncing. Used to manage assignments, resources, and study planning in a single interface.
@@ -20,13 +20,14 @@ An extension of StudyLocker built for private tutoring and teaching businesses. 
 Norm is a Physical AI company. Sentry is its first product, a desktop camera device that monitors focus behavior and provides coaching through a companion app.
 
 > Built on Raspberry Pi with an AI camera module. Edge inference for real-time focus detection. Cloud LLM integration for personalized coaching.
+> Actively in development
 
 ## ◆ Open Source
 
-#### Hive
-An open source platform for running local drones (mini agents that handle scoped tasks on a developer's machine) as well as other AI tools such as plugins, skills, and agent blueprints. Focused on giving developers a lightweight way to coordinate their AI  without depending on centralized infrastructure.
+#### [Hive](https://hive-tooling.vercel.app)
+A platform for users to post, view, and install community (as well as corporate) made tools for AI Agents. This includes simple skills all the way to complex MCPs for mainstream workflows. Includes custom tools listed below.
 
-> Self-trained the underlying AI models rather than relying on hosted APIs. Designed for composable, single-purpose agents. Active development with a focus on developer ergonomics.
+> Actively in development with a focus on developer ergonomics. A "GitHub" for AI Agent Tooling.
 
 #### Tooling
 - Decision Simulator, a structured tool for evaluating tradeoffs and decisions
@@ -42,10 +43,13 @@ Java, Python, TypeScript / JavaScript, C++, C# (Game Development), Lua / Luau, H
 React, Tailwind CSS, Vite, Next.js
 
 #### Backend and Infrastructure
-Supabase, PostgreSQL, REST APIs, OAuth integrations (Google APIs), Stripe
+Supabase, PostgreSQL, REST APIs, OAuth integrations (Google APIs), other APIs
 
-#### AI and Tooling
-Prompt engineering, designing AI-assisted workflows, working with LLM APIs and structured outputs, self-training small models, building tools for agent-based systems including skills and plugins
+#### AI and ML
+PyTorch, scikit-learn, NumPy, Pandas, supervised and unsupervised learning, neural network fundamentals, data preprocessing and feature engineering, model training and evaluation, fine-tuning small models, transfer learning, synthetic data generation
+
+#### Agentic Tooling
+Prompt engineering, LLM API integration (Anthropic, OpenAI), structured outputs (JSON mode), function calling and tool use, MCP server and tool development, plugin development, retrieval-augmented generation (RAG), embeddings and vector search, multi-agent orchestration
 
 #### Hardware and Electrical
 Raspberry Pi development, AI camera module integration, ESP32-S3, edge AI deployment, embedded power management, GPIO interfacing, sensor and camera integration, circuit prototyping
