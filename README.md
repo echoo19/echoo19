@@ -1,6 +1,6 @@
 # Jake Kang
 
-Builder focused on structure, workflows, and how people interact with complex systems. Work spans product development, developer tooling, and hardware-integrated AI systems.
+Aspiring engineer focused on how people interact with complex systems and existing congestion. Work spans product development, developer tooling, and hardware-integrated AI systems.
 
 ## ◆ Software
 
