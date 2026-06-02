@@ -5,11 +5,11 @@ Builder focused on structure, workflows, and how people interact with complex sy
 ## ◆ Software
 
 #### [StudyLocker](https://studylocker.app)
-A platform for organizing academic workflows by bringing together tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information for students easier to access and act on.
+A platform for organizing academic workflows by bringing together tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information easier for students to access and act on.
 
-> Early-stage SaaS with active iteration based on real student use. Integrated with Google Calendar and Classroom for workflow syncing. Used to manage assignments, resources, and study planning in a single interface.
+> Early-stage SaaS with active iteration based on real student use. Used to manage assignments, resources, and study planning in a single interface with complementary AI tools.
 
-#### Lectern
+#### StudyLocker - Lectern
 An extension of StudyLocker built for private tutoring and teaching businesses. Brings student management, lesson planning, and resource sharing into one workspace for independent educators and small academies.
 
 > Currently signing first paying customer. Designed around the operational needs of tutors and small teaching teams. Built on the StudyLocker foundation with workflows tailored to instructors.
