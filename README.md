@@ -1,71 +1,67 @@
 # Jake Kang
 
-Aspiring engineer focused on how people interact with complex systems and existing congestion. Work spans product development, developer tooling, and hardware-integrated AI systems.
+Aspiring engineer focused on how people interact with complex systems and the friction in between. Work spans product development, developer tooling, and hardware-integrated AI systems.
+
+[GitHub](https://github.com/echoo19) · [LinkedIn](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
 
 ---
 
-## ◆ Software
+## 01 · Software
 
-#### [StudyLocker](https://studylocker.app)
-A platform for organizing academic workflows by bringing tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information easier to access and act on.
+### [StudyLocker](https://studylocker.app)
+<samp>early-stage SaaS · iterating with real student use</samp>
 
-> Early-stage SaaS with active iteration based on real student use. Handles assignment management, resource organization, and study planning with complementary AI tools.
+A platform for organizing academic workflows by bringing tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information easier to access and act on. Handles assignment management, resource organization, and study planning with complementary AI tools.
 
-#### StudyLocker — Lectern
+### Lectern
+<samp>signing first paying customer · built on StudyLocker</samp>
+
 An extension of StudyLocker for private tutoring and teaching businesses. Brings student management, lesson planning, and resource sharing into one workspace for independent educators and small academies.
 
-> Currently signing first paying customer. Built around the operational needs of tutors and small teaching teams, on top of the StudyLocker foundation.
+---
+
+## 02 · Open Source
+
+### [Hive](https://hive-tooling.vercel.app)
+<samp>actively in development</samp>
+
+An open catalog of tools for AI agents: MCPs, CLIs, skills, subagents, and plugins. Install the Hive MCP once and your agent can discover and install tools itself, with no manual steps. Agents call `discover(intent)` to find tools by describing what they want to build, then `install(slug)` to configure them automatically.
+
+The catalog runs on Supabase and deploys on Vercel. Each tool exposes a plain-text `install.md` endpoint that agents fetch directly. Published as [`@echoo19/hive-mcp`](https://www.npmjs.com/package/@echoo19/hive-mcp) on npm.
+
+### Agent plugins
+**Decision Simulator** · structured tool for evaluating tradeoffs and decisions  
+**Feature Agents** · agent system that critiques proposed features before implementation  
+**ArchKit** · repository optimization for codebase structure and navigation
 
 ---
 
-## ◆ Open Source
+## 03 · Hardware
 
-#### [Hive](https://hive-tooling.vercel.app)
-An open catalog of tools for AI agents: MCPs, CLIs, skills, subagents, and plugins. The main feature is the Hive MCP where users can install it once and your agent can discover and install tools itself without any manual steps.
+### Norm / Sentry
+<samp>actively in development</samp>
 
-> Agents call `discover(intent)` to find tools by describing what they want to build, then `install(slug)` to configure them automatically. The catalog is backed by Supabase and deployed on Vercel. Each tool exposes a plain-text `install.md` endpoint that agents fetch directly. Published as [`@echoo19/hive-mcp`](https://www.npmjs.com/package/@echoo19/hive-mcp) on npm.
->
-> Actively in development.
-
-#### Agent plugins
-- **Decision Simulator** — structured tool for evaluating tradeoffs and decisions
-- **Feature Agents** — agent-based system that critiques proposed features before implementation
-- **ArchKit** — repository optimization tool for improving codebase structure and navigation
+Norm is a Physical AI company. Sentry, its first product, is a desktop camera that monitors focus behavior and provides real-time coaching through a companion app. Built on Raspberry Pi with an AI camera module: edge inference for real-time focus detection, cloud LLM integration for personalized coaching.
 
 ---
 
-## ◆ Hardware
+## 04 · Stack
 
-#### Norm / Sentry
-Norm is a Physical AI company. Sentry is its first product: a desktop camera that monitors focus behavior and provides real-time coaching through a companion app.
-
-> Built on Raspberry Pi with an AI camera module. Edge inference for real-time focus detection. Cloud LLM integration for personalized coaching. Actively in development.
-
----
-
-## ◆ Technical Skills
-
-**Languages:** Java, Python, TypeScript / JavaScript, C++, C# (Game Development), Lua / Luau, HTML + CSS
-
-**Frontend:** React, Tailwind CSS, Vite, Next.js
-
-**Backend & Infrastructure:** Supabase, PostgreSQL, REST APIs, OAuth integrations (Google APIs)
-
-**AI & ML:** PyTorch, scikit-learn, NumPy, Pandas, supervised and unsupervised learning, neural network fundamentals, model training and evaluation, fine-tuning, transfer learning, synthetic data generation
-
-**Agentic Tooling:** Prompt engineering, LLM API integration (Anthropic, OpenAI), structured outputs, function calling, MCP server and tool development, plugin development, RAG, embeddings and vector search, multi-agent orchestration
-
-**Hardware:** Raspberry Pi, AI camera module integration, ESP32-S3, edge AI deployment, embedded power management, GPIO interfacing, sensor and camera integration, circuit prototyping
+| | |
+|---|---|
+| **Languages** | Java, Python, TypeScript / JavaScript, C++, C# (game dev), Lua / Luau, HTML + CSS |
+| **Frontend** | React, Next.js, Tailwind CSS, Vite |
+| **Backend** | Supabase, PostgreSQL, REST APIs, OAuth (Google APIs) |
+| **AI / ML** | PyTorch, scikit-learn, NumPy, Pandas, supervised + unsupervised learning, neural network fundamentals, training + evaluation, fine-tuning, transfer learning, synthetic data |
+| **Agentic** | Prompt engineering, LLM APIs (Anthropic, OpenAI), structured outputs, function calling, MCP server + tool dev, plugin dev, RAG, embeddings + vector search, multi-agent orchestration |
+| **Hardware** | Raspberry Pi, AI camera modules, ESP32-S3, edge AI deployment, embedded power management, GPIO, sensor + camera integration, circuit prototyping |
 
 ---
 
-## ◆ Interests
+## 05 · Interests
 
-Interested in how AI can move beyond simple interfaces and start interacting directly with existing systems, hardware, and people's workflows.
+How AI can move past simple interfaces and start interacting directly with existing systems, hardware, and the way people actually work.
 
 ---
 
-## ◆ Links
-
-- GitHub: [github.com/echoo19](https://github.com/echoo19)
-- LinkedIn: [linkedin.com/in/hyunsoo-kang-44370b329](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
+<sub>[github.com/echoo19](https://github.com/echoo19) · [linkedin.com/in/hyunsoo-kang](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)</sub>
