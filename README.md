@@ -1,72 +1,47 @@
 # Jake Kang
 
-Aspiring engineer focused on how people interact with complex systems and the friction in between. Work spans product development, developer tooling, and hardware-integrated AI systems.
+I'm a CS and econ student. I build AI systems that do actual work: an operations platform running a live tutoring academy, a 2D game engine that coding agents can build inside, and a catalog that agents install their own tools from.
 
-[GitHub](https://github.com/echoo19) · [LinkedIn](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
-
----
-
-## 01 · Software
-
-### Lectern
-
-<samp>signing first paying customer · agency turning into a product</samp>
-
-A productized agency that builds and runs operational software for test-prep and tutoring academies. One shared multi-tenant codebase runs each academy's operation: student profiles, attendance, test and assignment tracking, TA management, and automated parent reporting. New academies are added through configuration, not forked code, so each one takes less custom work than the last. AI does the building underneath on a template that gets sharper with every customer. As the same system lands at enough academies with little custom work, the agency becomes a product business.
-
-### [StudyLocker](https://studylocker.app)
-
-<samp>early-stage SaaS · iterating with real student use</samp>
-
-A platform for organizing academic workflows by bringing tasks, resources, and notes into a single system. Designed around reducing fragmentation and making information easier to access and act on. Handles assignment management, resource organization, and study planning with complementary AI tools.
+[github.com/echoo19](https://github.com/echoo19) · [LinkedIn](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
 
 ---
 
-## 02 · Open Source
+## Lectern
 
-### [Hive](https://hive-tooling.vercel.app)
+A productized agency that builds and runs the software academies use to operate: student profiles, attendance, practice tests, question banks, TA scheduling and payroll, and the parent reports that actually sell the thing. Every academy runs on one shared codebase and gets configured rather than rebuilt, so the fifth customer costs far less to onboard than the second. AI does the building behind the curtain; the academy just buys a system that runs their operation.
 
-<samp>actively in development</samp>
+The first academy is live in production with about 1,500 students on it. What's running today: a Bluebook-style SAT test player with auto-grading and resumable timed sections, adaptive question-bank and vocabulary practice, TA shifts with clock-in and payroll, PDF report cards for parents, and a pipeline that takes an uploaded test PDF and turns it into a verified question bank by having Claude and GPT extract it separately and reconcile the two. New leads come in through a public intake funnel. Built on Next.js and Supabase, shipping most weeks.
 
-An open catalog of tools for AI agents: MCPs, CLIs, skills, subagents, and plugins. Install the Hive MCP once and your agent can discover and install tools itself, with no manual steps. Agents call `discover(intent)` to find tools by describing what they want to build, then `install(slug)` to configure them automatically.
+Live at [lectern.systems](https://lectern.systems).
 
-The catalog runs on Supabase and deploys on Vercel. Each tool exposes a plain-text `install.md` endpoint that agents fetch directly. Published as [`@echoo19/hive-mcp`](https://www.npmjs.com/package/@echoo19/hive-mcp) on npm.
+## Hearth
 
-### Agent plugins
+A 2D game engine and editor for humans and coding agents to build games together. You work in a visual editor; an agent works through the same 48 CLI commands and an MCP server. Both go through the exact same engine operations to create entities, attach scripts, run a headless playtest, or manage assets, so neither side can do anything the other can't see or undo. Projects stay on your disk as plain JSON, Lua and JavaScript, and asset files, so nothing gets trapped inside the tool.
 
-**Decision Simulator** · structured tool for evaluating tradeoffs and decisions  
-**Feature Agents** · agent system that critiques proposed features before implementation  
-**ArchKit** · repository optimization for codebase structure and navigation
+Electron and React for the editor, PixiJS and WebGL at runtime, Lua scripting sandboxed through wasmoon. Currently a v0.6.0 developer preview, MIT licensed, with desktop builds for macOS, Windows, and Linux.
 
----
+[github.com/echoo19/hearth](https://github.com/echoo19/hearth) · [hearth-engine.vercel.app](https://hearth-engine.vercel.app)
 
-## 03 · Hardware
+## Hive
 
-### Norm / Sentry
+An open catalog of things AI agents can use: MCP servers, CLIs, skills, subagents, plugins. You install the Hive MCP once and the agent takes it from there. It calls `discover(intent)` to find a tool by describing what it's trying to build, then `install(slug)` to set that tool up on its own, no copy-pasting config. Each tool publishes a plain-text `install.md` the agent reads directly. Runs on Supabase, deploys on Vercel, published as [`@echoo19/hive-mcp`](https://www.npmjs.com/package/@echoo19/hive-mcp) on npm.
 
-<samp>actively in development</samp>
+I've also put out a few agent plugins: Decision Simulator for weighing tradeoffs, Feature Agents for pressure-testing a feature before it gets built, and ArchKit for keeping a codebase's structure navigable.
 
-Norm is a Physical AI company. Sentry, its first product, is a desktop camera that monitors focus behavior and provides real-time coaching through a companion app. Built on Raspberry Pi with an AI camera module: edge inference for real-time focus detection, cloud LLM integration for personalized coaching.
+[github.com/echoo19/hive-mcp](https://github.com/echoo19/hive-mcp) · [hive-tooling.vercel.app](https://hive-tooling.vercel.app)
 
----
+## Norm / Sentry
 
-## 04 · Stack
+Norm is a physical-AI company; Sentry is its first product, a small desktop camera that watches how you're focusing and coaches you in real time through a companion app. It runs on a Raspberry Pi with an AI camera module: the focus detection happens on the device, the coaching comes from an LLM in the cloud. Still in development.
 
-| | |
-|---|---|
-| **Languages** | Java, Python, TypeScript / JavaScript, C++, C# (game dev), Lua / Luau, HTML + CSS |
-| **Frontend** | React, Next.js, Tailwind CSS, component architecture, state management, responsive design, accessibility, animation, design systems |
-| **Backend** | Supabase, PostgreSQL, REST APIs, OAuth (Google APIs) |
-| **AI / ML** | PyTorch, scikit-learn, NumPy, Pandas, supervised + unsupervised learning, neural network fundamentals, training + evaluation, fine-tuning, transfer learning, synthetic data |
-| **Agentic** | Prompt engineering, LLM APIs (Anthropic, OpenAI), structured outputs, function calling, MCP server + tool dev, plugin dev, RAG, embeddings + vector search, multi-agent orchestration |
-| **Hardware** | Raspberry Pi, AI camera modules, ESP32-S3, edge AI deployment, embedded power management, GPIO, sensor + camera integration, circuit prototyping |
+## What I work with
 
----
+The languages I reach for most are Python, TypeScript, and Java, with C++, C#, and Lua when a project calls for them. On the web that's usually React, Next.js, and Tailwind; on the backend, Supabase and Postgres with the Google OAuth APIs. For AI work I've trained models with PyTorch and scikit-learn and built the agent side of things: LLM APIs from Anthropic and OpenAI, function calling and structured output, MCP servers and plugins, RAG with embeddings, and multi-agent setups. The hardware projects keep me in Raspberry Pi, ESP32-S3, and edge inference, wiring cameras and sensors on breadboards.
 
-## 05 · Interests
+The work also pulls me into the parts that decide whether any of it matters: the agency-to-product strategy behind Lectern, the market research and cold outreach that find the next academy, and enough writing to turn a messy problem into an operating model clear enough to hand off to a person or an agent.
 
-How AI can move past simple interfaces and start interacting directly with existing systems, hardware, and the way people actually work.
+## What I'm interested in
 
----
+Getting AI past the chat window, so it acts directly on the systems, hardware, and workflows people already use.
 
-<sub>[github.com/echoo19](https://github.com/echoo19) · [linkedin.com/in/hyunsoo-kang](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)</sub>
+[github.com/echoo19](https://github.com/echoo19) · [linkedin.com/in/hyunsoo-kang](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
