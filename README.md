@@ -2,7 +2,7 @@
 
 CS and econ student at Northeastern Khoury College of Computer Science.
 
-[github.com/echoo19](https://github.com/echoo19) · [LinkedIn](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
+[jakekang.me](https://jakekang.vercel.app) · [github.com/echoo19](https://github.com/echoo19) · [LinkedIn](https://www.linkedin.com/in/hyunsoo-kang-44370b329/)
 
 ---
 
