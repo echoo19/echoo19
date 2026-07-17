@@ -20,7 +20,7 @@ A 2D game engine and editor for humans and coding agents to build games together
 
 Currently a v0.6.0 developer preview, MIT licensed, with desktop builds for macOS, Windows, and Linux.
 
-[github.com/echoo19/hearth](https://github.com/echoo19/hearth) · [hearth-engine.vercel.app](https://hearth-engine.vercel.app)
+[github.com/echoo19/hearth](https://github.com/echoo19/hearth) · [hearthengine.com](https://hearthengine.com)
 
 ## Hive
 
