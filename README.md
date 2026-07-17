@@ -18,7 +18,7 @@ Live at [lectern.systems](https://lectern.systems).
 
 A 2D game engine and editor for humans and coding agents to build games together. You work in a visual editor; an agent works through the same 48 CLI commands and an MCP server. Both go through the exact same engine operations to create entities, attach scripts, run a headless playtest, or manage assets, so neither side can do anything the other can't see or undo. Projects stay on your disk as plain JSON, Lua and JavaScript, and asset files, so nothing gets trapped inside the tool.
 
-Currently a v0.6.0 developer preview, MIT licensed, with desktop builds for macOS, Windows, and Linux.
+Currently at v1.2 and receiving active feedback, MIT licensed, with desktop builds for macOS, Windows, and Linux.
 
 [github.com/echoo19/hearth](https://github.com/echoo19/hearth) · [hearthengine.com](https://hearthengine.com)
 
