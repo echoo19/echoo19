@@ -1,27 +1,6 @@
 <div align="center">
 
-<table><tr><td>
-<pre>
-╭─────────────────────────────────────────────────────────────────────────────╮
-│ ● ● ●  jake@github: ~                                                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│       ██╗ █████╗ ██╗  ██╗███████╗    ██╗  ██╗ █████╗ ███╗   ██╗ ██████╗     │
-│       ██║██╔══██╗██║ ██╔╝██╔════╝    ██║ ██╔╝██╔══██╗████╗  ██║██╔════╝     │
-│       ██║███████║█████╔╝ █████╗      █████╔╝ ███████║██╔██╗ ██║██║  ███╗    │
-│  ██   ██║██╔══██║██╔═██╗ ██╔══╝      ██╔═██╗ ██╔══██║██║╚██╗██║██║   ██║    │
-│  ╚█████╔╝██║  ██║██║  ██╗███████╗    ██║  ██╗██║  ██║██║ ╚████║╚██████╔╝    │
-│   ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝     │
-│                                                                             │
-╰─────────────────────────────────────────────────────────────────────────────╯
-</pre>
-</td></tr></table>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=FFFFFF&background=000000&center=true&vCenter=true&width=680&height=55&lines=%3E%20initializing%20systems...;%3E%20user%3A%20jake_kang;%3E%20access%3A%20granted;%3E%20welcome%20to%20the%20machine_" alt="terminal" />
-
-<br/>
-
-<img src="./assets/scene.svg" width="760" alt="jake@github — stack + operator" />
+<img src="./assets/scene.svg" width="840" alt="jake@github" />
 
 <br/><br/>
 
