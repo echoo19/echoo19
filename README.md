@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/scene-v2.svg" width="840" alt="jake@github" />
+<img src="./assets/scene-v3.svg" width="840" alt="jake@github" />
 
 <br/><br/>
 
