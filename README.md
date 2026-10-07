@@ -1,13 +1,14 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img src="./assets/header-light.svg" width="560" alt="Jake Kang. CS & Econ at Northeastern. Based in NYC.">
+</picture>
 
-<img src="./assets/scene-v3.svg" width="840" alt="jake@github" />
+<a href="https://www.jakekang.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/site-dark.svg"><img src="./assets/site-light.svg" width="560" alt="Website: jakekang.dev"></picture></a><br>
+<a href="https://lectern.systems"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lectern-dark.svg"><img src="./assets/lectern-light.svg" width="560" alt="Lectern: lectern.systems"></picture></a><br>
+<a href="https://hearthengine.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hearth-dark.svg"><img src="./assets/hearth-light.svg" width="560" alt="Hearth: hearthengine.com"></picture></a><br>
+<a href="https://www.linkedin.com/in/jakekangdev/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/linkedin-dark.svg"><img src="./assets/linkedin-light.svg" width="560" alt="LinkedIn"></picture></a>
 
-<br/><br/>
-
-<p>
-  <a href="https://jakekang.vercel.app"><img src="https://img.shields.io/badge/jakekang.me-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Personal site" /></a>
-  <a href="https://www.linkedin.com/in/hyunsoo-kang-44370b329/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/jke_kang"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-</p>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
+  <img src="./assets/skills-light.svg" width="560" alt="Skills: Java, Python, TypeScript, HTML">
+</picture>
