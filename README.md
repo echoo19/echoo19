@@ -5,10 +5,11 @@
   <img src="./assets/header-light.svg" width="560" alt="Jake Kang. CS & Econ at Northeastern. Based in NYC.">
 </picture>
 
-<a href="https://www.jakekang.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/site-dark.svg"><img src="./assets/site-light.svg" width="560" alt="Website: jakekang.dev"></picture></a><br>
-<a href="https://lectern.systems"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/lectern-dark.svg"><img src="./assets/lectern-light.svg" width="560" alt="Lectern: lectern.systems"></picture></a><br>
-<a href="https://hearthengine.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hearth-dark.svg"><img src="./assets/hearth-light.svg" width="560" alt="Hearth: hearthengine.com"></picture></a><br>
-<a href="https://www.linkedin.com/in/jakekangdev/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/linkedin-dark.svg"><img src="./assets/linkedin-light.svg" width="560" alt="LinkedIn"></picture></a>
+<a href="https://github.com/echoo19/git-dragon"><img src="./dragon/dragon.gif" width="600" alt="My git-dragon: a black and orange pixel dragon, redrawn every night from my GitHub activity"></a><br>
+<a href="https://www.jakekang.dev"><img src="./assets/site-pixel.svg" width="600" alt="Website: jakekang.dev"></a><br>
+<a href="https://lectern.systems"><img src="./assets/lectern-pixel.svg" width="600" alt="Lectern: lectern.systems"></a><br>
+<a href="https://hearthengine.com"><img src="./assets/hearth-pixel.svg" width="600" alt="Hearth: hearthengine.com"></a><br>
+<a href="https://www.linkedin.com/in/jakekangdev/"><img src="./assets/linkedin-pixel.svg" width="600" alt="LinkedIn: in/jakekangdev"></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">

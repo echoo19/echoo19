@@ -1,0 +1,37 @@
+# Redraws the git-dragon banner every night from the day that just ended.
+name: Dragon
+
+on:
+  schedule:
+    # Just after midnight UTC, so the dragon acts out the day that just ended.
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/dragon.yml]
+
+permissions:
+  contents: write
+
+concurrency: dragon
+
+jobs:
+  dragon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: echoo19/git-dragon@main
+        with:
+          output-dir: dragon
+          theme: obsidian
+      - name: Commit the dragon if it changed
+        shell: bash
+        run: |
+          git add dragon/dragon.gif dragon/dragon.png dragon/dragon.json
+          if git diff --cached --quiet; then
+            echo "The dragon is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "dragon: draw the day's dragon"
+          git push --quiet
