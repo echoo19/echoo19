@@ -4,7 +4,7 @@
   "stage": "drake",
   "behavior": "blaze",
   "reason": "crossed 5,000 contributions",
-  "totalContributions": 6550,
+  "totalContributions": 6580,
   "nextStage": {
     "stage": "elder",
     "at": 8000
@@ -24,17 +24,17 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.5
+      "share": 0.5555555555555556
     },
     {
       "name": "HTML",
       "color": "#e34c26",
-      "share": 0.125
+      "share": 0.1111111111111111
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.125
+      "share": 0.1111111111111111
     }
   ],
   "season": "autumn"
