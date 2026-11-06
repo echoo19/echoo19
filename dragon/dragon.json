@@ -1,23 +1,23 @@
 {
   "login": "echoo19",
-  "observedOn": "2026-11-04",
+  "observedOn": "2026-11-05",
   "stage": "drake",
-  "behavior": "fly",
-  "reason": "13 contributions: out flying",
+  "behavior": "lounge",
+  "reason": "1 quiet day: awake, guarding the hoard",
   "totalContributions": 6921,
   "nextStage": {
     "stage": "elder",
     "at": 8000
   },
   "growth": 0.747,
-  "currentStreak": 9,
+  "currentStreak": 0,
   "longestStreak": 58,
   "horns": "gold antler",
   "crest": "spikes",
   "pattern": "bands",
-  "ember": 2,
+  "ember": 0,
   "hoard": {
-    "stars": 54,
+    "stars": 50,
     "gems": 1
   },
   "colors": [
