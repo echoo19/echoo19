@@ -1,9 +1,9 @@
 {
   "login": "echoo19",
-  "observedOn": "2026-11-22",
+  "observedOn": "2026-11-23",
   "stage": "drake",
-  "behavior": "lounge",
-  "reason": "6 quiet days: awake, guarding the hoard",
+  "behavior": "sleep",
+  "reason": "7 quiet days: curled up asleep",
   "totalContributions": 6944,
   "nextStage": {
     "stage": "elder",
