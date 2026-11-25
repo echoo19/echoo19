@@ -1,16 +1,16 @@
 {
   "login": "echoo19",
-  "observedOn": "2026-11-23",
+  "observedOn": "2026-11-24",
   "stage": "drake",
-  "behavior": "sleep",
-  "reason": "7 quiet days: curled up asleep",
-  "totalContributions": 6944,
+  "behavior": "blaze",
+  "reason": "246 contributions: one of the year's biggest days",
+  "totalContributions": 7354,
   "nextStage": {
     "stage": "elder",
     "at": 8000
   },
-  "growth": 0.747,
-  "currentStreak": 0,
+  "growth": 0.755,
+  "currentStreak": 2,
   "longestStreak": 58,
   "horns": "gold antler",
   "crest": "spikes",
