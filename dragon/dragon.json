@@ -1,23 +1,20 @@
 {
   "login": "echoo19",
-  "observedOn": "2026-11-26",
-  "stage": "drake",
+  "observedOn": "2026-11-27",
+  "stage": "elder",
   "behavior": "blaze",
-  "reason": "203 contributions: one of the year's biggest days",
-  "totalContributions": 7915,
-  "nextStage": {
-    "stage": "elder",
-    "at": 8000
-  },
-  "growth": 0.766,
-  "currentStreak": 4,
+  "reason": "195 contributions: one of the year's biggest days",
+  "totalContributions": 8111,
+  "nextStage": null,
+  "growth": 0.77,
+  "currentStreak": 5,
   "longestStreak": 58,
   "horns": "gold antler",
   "crest": "spikes",
   "pattern": "bands",
   "ember": 1,
   "hoard": {
-    "stars": 48,
+    "stars": 47,
     "gems": 1
   },
   "colors": [
